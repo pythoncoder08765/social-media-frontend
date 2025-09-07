@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'http://localhost:4000' });
+const API = axios.create({ baseURL: 'https://social-media-backend-production-e391.up.railway.app' });
 
 
 API.interceptors.request.use((req) => {
